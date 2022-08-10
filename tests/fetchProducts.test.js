@@ -8,8 +8,6 @@ describe('Teste a função fetchProducts', () => {
     expect.assertions(1);
   })
   it('Execute a função fetchProducts com o argumento "computador" e teste se fetch foi chamada', async () => {
-    // await fetchProducts('computador');
-    // expect(fetch).toHaveBeenCalled();
     await expect(fetchProducts('computador')).toBeenCalled()
     expect.assertions(1);
   })
@@ -22,14 +20,12 @@ describe('Teste a função fetchProducts', () => {
     await expect(fetchProducts('computador')).toEqual(computadorSearch);
     expect.assertions(1);
   })
-  
-
-test('Teste se, ao chamar a função fetchProducts sem argumento, retorna um erro com a mensagem:', async () => {
+  test('Teste se, ao chamar a função fetchProducts sem argumento, retorna um erro com a mensagem:', async () => {
   expect.assertions(1);
-  try {
-    await fetchProducts();
-  } catch (err) {
+    try {
+      await fetchProducts();
+    } catch (err) {
     expect(err).toEqual(new Error('You must provide an url'));
-  }
+    }
 })
 });
