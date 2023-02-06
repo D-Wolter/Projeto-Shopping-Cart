@@ -26,8 +26,6 @@ A API utilizada neste projeto foi a API do Mescado Livre disponível neste [link
 ## :woman_technologist: No seu computador
 Para rodar esse projeto no seu computador, abra o terminal e siga o passo-a-passo a seguir:
 
-1. Clone o repositório `git clone git@github.com:SheilaNS/project-shopping-cart.git`
-2. Entre na pasta do repositório que você acabou de clonar `cd project-shopping-cart`
-3. Instale as dependências `npm install`
-4. Inicialize o projeto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do [Visual Studio Code](https://code.visualstudio.com/) `Go Live`
-5. O navegador vai abrir uma nova aba com a página do projeto 
+1. Instale as dependências `npm install`
+2. Inicialize o projeto com a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) do [Visual Studio Code](https://code.visualstudio.com/) `Go Live`
+3. O navegador vai abrir uma nova aba com a página do projeto 
